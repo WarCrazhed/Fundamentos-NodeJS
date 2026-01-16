@@ -2,14 +2,26 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "nodejs examples",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/WarCrazhed/Fundamentos-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/WarCrazhed/Fundamentos-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarCrazhed/Fundamentos-NodeJS.git"
+  },
   "license": "MIT",
   "author": "Mario Zamora",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
   "dependencies": {
-    "is-odd": "^3.0.1"
+    "isnumber": "^1.0.0"
   }
 }
